@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/Decops-pipeline-project
+      IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/decops-pipeline-project
 
     steps:
     
